@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ar" >
+<!--begin::Head-->
+
+<head><!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NR8FW9K3');</script>
+    <!-- End Google Tag Manager -->
+    <base href="" />
+    <title> Nqlyat</title>
+    <meta name="csrf-token" content="">
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="" />
+    <link rel="canonical" href="" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://nqlyat.com/favicon/favicon.ico">
+
+    <!--begin::Fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700">
+    <!--end::Fonts-->
+
+    <!--begin::Global Stylesheets Bundle(used by all pages)-->
+            <link rel="stylesheet" href="https://nqlyat.com/assets/plugins/global/plugins.bundle.css">
+            <link rel="stylesheet" href="https://nqlyat.com/assets/css/style.bundle.css">
+        <!--end::Global Stylesheets Bundle-->
+
+    <!--begin::Vendor Stylesheets(used by this page)-->
+            <link rel="stylesheet" href="https://nqlyat.com/assets/plugins/custom/datatables/datatables.bundle.css">
+            <link rel="stylesheet" href="https://nqlyat.com/assets/plugins/custom/fullcalendar/fullcalendar.bundle.css">
+        <!--end::Vendor Stylesheets-->
+
+    <!--begin::Custom Stylesheets(optional)-->
+        <!--end::Custom Stylesheets-->
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DGPY9PBGCS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DGPY9PBGCS');
+</script>
+    </head>
+<!--end::Head-->
+
+<!--begin::Body-->
+
+<body id="kt_app_body" class="app-blank" data-kt-app-layout="dark-sidebar" data-kt-app-header-fixed="true" data-kt-app-sidebar-enabled="true" data-kt-app-sidebar-fixed="true" data-kt-app-sidebar-hoverable="true" data-kt-app-sidebar-push-header="true" data-kt-app-sidebar-push-toolbar="true" data-kt-app-sidebar-push-footer="true" data-kt-app-toolbar-enabled="true">
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NR8FW9K3"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+
+    <!--begin::Theme mode setup on page load-->
+<script>
+	var defaultThemeMode = "light"; 
+	var themeMode; 
+	if ( document.documentElement ) { 
+		if ( document.documentElement.hasAttribute("data-bs-theme-mode")) { 
+			themeMode = document.documentElement.getAttribute("data-theme-mode"); 
+		} else { 
+			if ( localStorage.getItem("data-bs-theme") !== null ) { 
+				themeMode = localStorage.getItem("data-bs-theme"); 
+			} else { 
+				themeMode = defaultThemeMode; 
+			} 
+		} 
+		
+		if (themeMode === "system") { 
+			themeMode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; 
+		} 
+		
+		document.documentElement.setAttribute("data-bs-theme", themeMode); 
+	}
+</script>
+<!--end::Theme mode setup on page load-->
+    
+    <!--begin::Root-->
+    <div class="d-flex flex-column flex-root" id="kt_app_root">
+        <!--begin::Wrapper-->
+        <div class="d-flex flex-column flex-center flex-column-fluid">
+            <!--begin::Content-->
+            <div class="d-flex flex-column flex-center text-center p-10">
+                <!--begin::Card-->
+                <div class="card card-flush w-lg-650px py-5">
+                    <!--begin::Card body-->
+                    <div class="card-body py-15 py-lg-20">
+                        <!--begin::Page bg image-->
+<style>
+    body {
+        background-image: url('https://nqlyat.com/assets/media/auth/bg1.jpg');
+    }
+
+    [data-bs-theme="dark"] body {
+        background-image: url('https://nqlyat.com/assets/media/auth/bg1-dark.jpg');
+    }
+</style>
+<!--end::Page bg image-->
+
+<!--begin::Title-->
+<h1 class="fw-bolder fs-2hx text-gray-900 mb-4" >
+    عفواً!
+</h1>
+<!--end::Title-->
+
+<!--begin::Text-->
+<div class="fw-semibold fs-6 text-gray-500 mb-7">
+    الصفحة غير موجودة
+</div>
+<!--end::Text-->
+
+<!--begin::Illustration-->
+<div class="mb-3">
+    <img src="https://nqlyat.com/assets/media/auth/404-error.png" class="mw-100 mh-300px theme-light-show" alt=""/>
+    <img src="https://nqlyat.com/assets/media/auth/404-error-dark.png" class="mw-100 mh-300px theme-dark-show" alt=""/>
+</div>
+<!--end::Illustration-->
+
+<!--begin::Link-->
+<div class="mb-0">
+    <a href="/" class="btn btn-sm btn-primary">العودة إلى الصفحة الرئيسية</a>
+</div>
+<!--end::Link-->
+                    </div>
+                    <!--end::Card body-->
+                </div>
+                <!--end::Card-->
+            </div>
+            <!--end::Content-->
+        </div>
+        <!--end::Wrapper-->
+    </div>
+    <!--end::Root-->
+
+    
+        <script>
+        var div_distance_unit = "km";
+        var user_country_for_maps = "";
+        var user_selection_loadboard = "";
+        var user_country_code = '';
+        var user_country_code_pattern = "";
+    </script>
+    <script>window['js_upgrade_error'] = 'الرجاء ترقية الخطة للمتابعة.';window['js_some_errors'] = 'عذرًا، يبدو أنه تم اكتشاف بعض الأخطاء، يرجى المحاولة مرة أخرى.';window['js_profile_updated'] = 'تم تحديث ملفك الشخصي بنجاح.';window['js_okay_got_it'] = 'حسنًا، فهمت!';window['js_name_required'] = 'الاسم مطلوب.';window['js_state_requried'] = 'الولاية مطلوبة.';window['js_city_requried'] = 'المدينة مطلوبة.';window['js_zip_requried'] = 'الرمز البريدي مطلوب.';window['js_address_requried'] = 'العنوان مطلوب.';window['js_phone_required'] = 'رقم الهاتف مطلوب.';window['js_phone_verification_required'] = 'مطلوب التحقق من الهاتف';window['js_company_requried'] = 'اسم الشركة مطلوب.';window['js_company_phone_requried'] = 'هاتف الشركة مطلوب.';window['js_invalid_email'] = 'عنوان البريد الإلكتروني غير صالح.';window['js_invalid_phone'] = 'رقم الهاتف غير صالح.';window['js_email_required'] = 'البريد الإلكتروني مطلوب.';window['js_password_required'] = 'كلمة المرور مطلوبة.';window['js_country_required'] = 'البلد مطلوب.';window['js_current_password_required'] = 'كلمة المرور الحالية مطلوبة.';window['js_new_password_required'] = 'كلمة المرور الجديدة مطلوبة.';window['js_new_password_confirm_required'] = 'تأكيد كلمة المرور مطلوب.';window['js_password_and_confirm_password_not_match'] = 'كلمة المرور وتأكيد كلمة المرور غير متطابقين.';window['js_valid_password_required'] = 'يرجى إدخال كلمة مرور صالحة.';window['js_account_type_required'] = 'نوع الحساب مطلوب.';window['js_invalid_credentials'] = 'بيانات الاعتماد غير صحيحة أو تم الوصول إلى الحد الأقصى للجلسة';window['js_accept_terms'] = 'يرجى قبول الشروط والأحكام الخاصة بنا.';window['js_no_items_found'] = 'لم يتم العثور على عناصر.';window['js_file_required'] = 'الملف مطلوب.';window['js_invalid_file_type'] = 'نوع الملف غير صالح.';window['js_select_image'] = 'يرجى تحديد صورة';window['js_document_type_required'] = 'نوع المستند مطلوب.';window['js_document_id_required'] = 'common.document_id_required';window['js_origin_required_dropdown'] = 'المصدر مطلوب، يرجى اختياره من القائمة المنسدلة';window['js_destination_required_dropdown'] = 'الوجهة مطلوبة، يرجى اختيارها من القائمة المنسدلة';window['js_pickup_date_required'] = 'تاريخ الاستلام مطلوب.';window['js_dropoff_date_required'] = 'تاريخ التسليم مطلوب.';window['js_material_type_required'] = 'نوع المواد مطلوب.';window['js_pickup_hours_required'] = 'ساعات الاستلام مطلوبة.';window['js_dropoff_hours_required'] = 'ساعات التسليم مطلوبة.';window['js_visibility_required'] = 'الرؤية مطلوبة.';window['js_booking_type_required'] = 'نوع الحجز مطلوب.';window['js_equipment_type_required'] = 'نوع المعدات مطلوب.';window['js_weight_required'] = 'الوزن مطلوب.';window['js_length_required'] = 'الطول مطلوب.';window['js_trip_distance_required'] = 'مسافة الرحلة مطلوبة.';window['js_flat_rate_required'] = 'السعر الثابت مطلوب.';window['js_load_size_required'] = 'حجم الشحنة مطلوب.';window['js_rate_per_km_required'] = 'معدل الرسوم لكل كيلومتر مطلوب.';window['js_truck_name_required'] = 'اسم الشاحنة مطلوب.';window['js_truck_type_required'] = 'نوع الشاحنة مطلوب.';window['js_form_submit_success'] = 'تم إرسال النموذج بنجاح.';window['js_are_you_sure'] = 'هل أنت متأكد؟';window['js_you_wont_be_able_to_revert_this'] = 'لن تكون قادرًا على التراجع عن ذلك!';window['js_driver_id_required'] = 'معرف السائق مطلوب.';window['js_is_not_valid_format'] = 'غير صالح الشكل.';window['js_format_not_correct'] = 'تنسيق غير صحيح.';window['js_send_code'] = 'إرسال الرمز';window['js_phone_verified'] = 'تم التحقق من الهاتف بنجاح.';window['js_verifying_code'] = 'جارٍ التحقق من الرمز...';window['js_invalid_code'] = 'الرمز غير صالح.';window['js_please_wait'] = 'يرجى الانتظار...';</script>    <!--begin::Javascript-->
+    <!--begin::Global Javascript Bundle(mandatory for all pages)-->
+            <script src="https://nqlyat.com/assets/plugins/global/plugins.bundle.js"></script>
+            <script src="https://nqlyat.com/assets/js/scripts.bundle.js"></script>
+            <script src="https://nqlyat.com/assets/js/widgets.bundle.js"></script>
+        <!--end::Global Javascript Bundle-->
+
+    <!--begin::Vendors Javascript(used by this page)-->
+            <script src="https://nqlyat.com/assets/plugins/custom/datatables/datatables.bundle.js"></script>
+            <script src="https://nqlyat.com/assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
+        <!--end::Vendors Javascript-->
+
+    <!--begin::Custom Javascript(optional)-->
+        <!--end::Custom Javascript-->
+
+    <script>
+        $(function() {
+            $("button").prop('disabled', false);
+        });
+    </script>
+
+    <!--end::Javascript-->
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZmueyxp62ODs8FVuoX2iOv3iGG9EdiDM&callback=initAutocomplete&libraries=places&v=weekly&language=ar"
+        defer></script>
+
+    <script src="https://nqlyat.com/assets/js/theme1/maps.js?v=1743603540"></script>
+
+        
+
+
+    <script>
+        var csrtoken = 'AIzaSyBZmueyxp62ODs8FVuoX2iOv3iGG9EdiDM';
+        var _token = '';
+
+
+        var selectElement = document.getElementById("country_code");
+
+        var selectedOption = selectElement.options[selectElement.selectedIndex];
+        var dataPatternSelectedCntr = new RegExp(selectedOption.getAttribute("data-pattern"));
+        var dataPatternSelectedCntrNocode = new RegExp(selectedOption.getAttribute("data-pattern_nocode"));
+        var is_recover_password = false;
+
+        $(document).ready(function() {
+            $('#country_code').select2({
+                templateResult: formatCountryFlag,
+                templateSelection: formatCountryFlag // Apply to selected item as well
+            });
+        });
+
+        function formatCountryFlag(country) {
+            if (!country.id) {
+                return country.text;
+            }
+            var $country = $(
+                '<span><img src="' + country.element.dataset.flag + '" class="img-flag" width="20" /> ' + country.text +
+                '</span>'
+            );
+            return $country;
+        }
+    </script>
+
+    
+</body>
+<!--end::Body-->
+
+</html>
