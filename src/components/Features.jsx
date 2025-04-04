@@ -67,7 +67,7 @@ const Features = () => {
 
             {/* Right Column - Text Content */}
             <div className="flex-1 z-10">
-              <h3 className="text-2xl font-bold">Brokerage Excellence</h3>
+              <h3 className="text-2xl font-bold">Brokerage <br />Excellence</h3>
               <p className="text-gray-600 group-hover:text-gray-200 transition mt-1">
                 Secure High-Paying Loads for <br /> Profitable Journeys{" "}
               </p>

@@ -11,7 +11,7 @@ import OurFleet from "./components/OurFleet";
 import Footer from "./components/Footer";
 
 const App = () => {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     setTimeout(() => setLoading(false), 3000); // Simulate loading

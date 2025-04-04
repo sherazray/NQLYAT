@@ -39,25 +39,35 @@ const OurFleet = () => {
         </div>
       </div>
 
-      {/* Client Logos */}
-      <div className="mt-16 grid grid-cols-1 font-bold md:grid-cols-4 border-gray-700 pt-8">
-        {["vodafone", "ASP.NET ZERO", "FUJIFILM", "TRUMAN"].map((client, index) => (
-          <div
-            key={index}
-            className="relative flex justify-center items-center border border-gray-600 w-auto h-62 hover:bg-[#2C3E50] transition group"
-          >
-            {/* Image initially hidden */}
-            <img
-              src={brand}  // Use the same image for all clients
-              alt={client}
-              className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-all duration-300"
-            />
-
-            {/* Text */}
-            <p className="text-gray-400 text-lg z-10">{client}</p>
-          </div>
-        ))}
+   {/* Client Logos */}
+   <div className="mt-16 grid grid-cols-1 font-bold md:grid-cols-4 border-gray-700 pt-8 ">
+  {["vodafone", "ASP.NET ZERO", "FUJIFILM", "TRUMAN"].map((client, index) => (
+    <div
+      key={index}
+      className="relative group flex justify-center items-center border border-gray-600 w-full h-40 overflow-hidden cursor-pointer"
+    >
+      {/* Blue Slide Overlay (darker blue, animated left to right) */}
+      <div className="absolute inset-0 z-0">
+        <div className="w-0 h-full bg-[#0b1a2d] group-hover:w-full transition-all duration-700 ease-[cubic-bezier(0.77,0,0.175,1)]" />
       </div>
+
+      {/* Image (black & white, only fades in after animation) */}
+      <img
+        src={brand}
+        alt={client}
+        className="absolute inset-0 w-full h-full object-cover filter grayscale opacity-0 group-hover:opacity-40 transition-opacity duration-700 delay-500 z-0"
+      />
+
+      {/* Text */}
+      <p className="text-gray-400 text-lg z-10 group-hover:text-white group-hover:scale-105 transition-all duration-300">
+        {client}
+      </p>
+    </div>
+  ))}
+</div>
+
+
+
 
       {/* Scroll to Top Button */}
       {showButton && (

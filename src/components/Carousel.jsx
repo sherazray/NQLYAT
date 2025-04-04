@@ -66,7 +66,7 @@ const Carousel = () => {
       </div>
 
       {/* Text Overlay */}
-      <div className="absolute top-[8%] left-1/4 w-[550px] h-[550px] bg-[#411f26] text-white transform scale-110 opacity-90 rounded-full shadow-lg flex flex-col items-center justify-center text-center p-6 opacity-none">
+      <div className="absolute top-[8%] left-1/4 w-[550px] h-[550px] bg-[#411f26] text-white transform scale-110 opacity-80 rounded-full shadow-lg flex flex-col items-center justify-center text-center p-6 opacity-none">
         <h1 className="text-6xl justify-center font-bold text-white">
           {slides[currentIndex].text}
         </h1><br />
